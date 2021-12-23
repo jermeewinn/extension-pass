@@ -10,18 +10,13 @@
 <body>
   <div class="wrapper">
     <header>
-      <h1>
-        <a href="/">Express-Path</a>
-      </h1>
-      <nav>
-        {{#if loggedIn}}
-        <a href="/dashboard">dashboard</a>
-        <button id="logout" class="btn-no-style">logout</button>
-        {{else}}
-        <a href="/login">login</a>
-        {{/if}}
-      </nav>
-    </header>
+    <h1>
+      <a href="/">Extension Pass</a>
+    </h1>
+    <nav>
+      <a href="/login">login</a>
+    </nav>
+  </header>
     <main>
       {{{ body }}}
     </main>

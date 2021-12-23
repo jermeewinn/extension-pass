@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS expresspass_db;
+DROP DATABASE IF EXISTS extensionpass_db;
 
-CREATE DATABASE expresspass_db;
+CREATE DATABASE extensionpass_db;
