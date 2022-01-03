@@ -4,12 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Express-Path</title>
+  <title>Extension-Path</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
   <div class="wrapper">
     <header>
+<<<<<<< HEAD
     <h1>
       <a href="/">Extension Pass</a>
     </h1>
@@ -17,6 +19,20 @@
       <a href="/login">login</a>
     </nav>
   </header>
+=======
+      <h1>
+        <a href="/">Extension-Path</a>
+      </h1>
+      <nav>
+        {{#if loggedIn}}
+        <a href="/dashboard">dashboard</a>
+        <button id="logout" class="btn-no-style">logout</button>
+        {{else}}
+        <a href="/login">login</a>
+        {{/if}}
+      </nav>
+    </header>
+>>>>>>> 590ec49fdae4c476cce92e9f372e415a1fb29c7b
     <main>
       {{{ body }}}
     </main>
