@@ -181,16 +181,23 @@
   form.comment-form div textarea{
     border: 3mm ridge rgba(21, 212, 196, 0.918);
   }
-form.comment-form div button[type=submit]{
-  color:white;
-  background-color:rgb(93, 93, 218);
-  border:.5mm solid #333
-}
-form.comment-form div button[type=button]{
-  color:white;
-  background-color:rgb(93, 218, 201);
-  border:.5mm solid #333
-}
+  form.comment-form div button[type=submit]{
+    color:white;
+    background-color:rgb(93, 93, 218);
+    border:.5mm solid #333
+  }
+  form.comment-form div button[type=button]{
+    color:white;
+    background-color:rgb(93, 218, 201);
+    border:.5mm solid #333
+  }
+  div.comments section.comment div.meta{
+    background-color:#cadaec
+  }
+  div.comments section.comment div.text{
+    background-color:#cadaec
+  }
+  
   footer {
     border-top: 1px solid #ccc;
     display: flex;

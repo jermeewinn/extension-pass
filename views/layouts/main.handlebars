@@ -10,23 +10,19 @@
 
 <body>
   <div class="wrapper">
-    <section class= "hero is-primary is-medium">
-      <div class="hero-head">
-        <header>
-          <h1>
-            <a href="/">Extension-Path</a>
-          </h1>
-          <nav class="navbar">
-            {{#if loggedIn}}
-            <a href="/dashboard">dashboard</a>
-            <button id="logout" class="btn-no-style">logout</button>
-            {{else}}
-            <a href="/login">login</a>
-            {{/if}}
-          </nav>
-        </header>
-        </div>
-    </section>
+    <header>
+      <h1>
+        <a href="/">Extension-Path</a>
+      </h1>
+      <nav>
+        {{#if loggedIn}}
+        <a href="/dashboard">dashboard</a>
+        <button id="logout" class="btn-no-style">logout</button>
+        {{else}}
+        <a href="/login">login</a>
+        {{/if}}
+      </nav>
+    </header>
     <main>
       {{{ body }}}
     </main>
