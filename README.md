@@ -16,7 +16,7 @@ We took inspiration from popular social media websites that allow users to freel
 Even now during times of COVID 19, people are still traveling. Sharing tips and suggestions to fellow travelers will help knit the community back together.
 
 ## Screenshoot of the working website
-[demo](https://user-images.githubusercontent.com/88611613/148153989-ce09e8e1-06c6-466d-80ec-4d8ee377602c.gif)
+[GIF](https://user-images.githubusercontent.com/88611613/148153989-ce09e8e1-06c6-466d-80ec-4d8ee377602c.gif)
 
 ## Future Plans!
 
