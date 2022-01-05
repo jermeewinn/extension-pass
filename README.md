@@ -15,7 +15,11 @@ This website will create a community for like minded people to share their ideas
 We took inspiration from popular social media websites that allow users to freely communicate with each other. <br>
 Even now during times of COVID 19, people are still traveling. Sharing tips and suggestions to fellow travelers will help knit the community back together.
 
-## Future Plans
+## Screenshoot of the working website
+[demo](https://user-images.githubusercontent.com/88611613/148153989-ce09e8e1-06c6-466d-80ec-4d8ee377602c.gif)
+
+## Future Plans!
+
 ○ Sharing and Hosting User uploaded pictures and videos <br>
 ○ Travel suggestions based on user tagged cities; if the user visited and have high ratings for at least 3 similar cities, our database would recommend a 4th city with similar traits the user might enjoy
 
