@@ -13,8 +13,8 @@ class Post extends Model {
         },
         attributes: [
           'id',
-          //change post_url to location details
-          'post_url',
+          //change post_description to location details
+          'post_description',
           'title',
           'created_at',
           [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)'), 'vote_count']
@@ -47,8 +47,8 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false
     },
-    //change post_url to location details
-    post_url: {
+    //change post_description to location details
+    post_description: {
       type: DataTypes.STRING,
       allowNull: false,
     },
