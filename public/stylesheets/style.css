@@ -90,6 +90,12 @@ header h1 {
   font-size: 1em;
 }
 
+div.head img{
+  border-radius: 8px;
+  width: 20%;
+  height:20%;
+}
+
 main {
   flex: 1;
   padding: 2% 4%;
@@ -197,8 +203,52 @@ form.comment-form div button[type="button"] {
 
 footer {
   border-top: 1px solid #ccc;
+  color: white;
   display: flex;
   justify-content: center;
   padding: 1%;
   font-size: 110%;
+  background-color: #41dac1;
 }
+main{
+  background-color: #f8fce8;
+}
+div.container div.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+div.container:hover .overlay {
+  width: 100%;
+}
+div.container div.text{
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#logout{
+  text-align:center;
+  /* padding-right: 270px; */
+}
+
+header div.button-container a{
+  padding-left: 200px;
+}
+
+/* div.hero-head nav.navbar a{
+  border: 1px white solid;
+  background-color: rgb(0, 110, 255);
+  border-radius: 8px;
+} */
