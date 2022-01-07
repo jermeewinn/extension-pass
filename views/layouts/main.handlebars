@@ -4,7 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Extension-Pass</title>
+  {{!-- API Key for TinyMCE --}}
+  <script src="https://cdn.tiny.cloud/1/a45lsd3nzw8m8y07k24qknaqyiq8qwra0s8ih1vk0qvitpg3/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
+  {{!-- HTML script for TinyMCE --}}
+  <script>
+    tinymce.init({
+      selector: '#mytextarea'
+    });
+  </script>
   <link rel="stylesheet" href="/stylesheets/style.css">
+  
 </head>
 
 <body>
@@ -15,7 +25,7 @@
             <img src="./stylesheets/assets/testgif.gif" alt="Logo">
             <div class="overlay">
               <div class="text">
-                <a href="/">Extension-Path</a>
+                <a href="/">Extension-Pass</a>
               </div>
           </div>
       </div>  
@@ -35,7 +45,7 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <p class="title">
-            Extension-Path
+            Extension-Pass
           </p>
           <p class="subtitle">
             Share Your Experiences With Extension-Path Travel Blog
