@@ -6,7 +6,11 @@
   <form class="edit-post-form">
     <div>
       <input name="post-title" type="text" value="{{post.title}}" />
-      <span>({{format_url post.post_description}})</span>
+      {{!-- <span>({{format_url post.post_description}})</span> --}}
+    </div>
+    <div>
+      <label for="post-description">What did you do on your trip?</label>
+      <textarea name="post-description" id="mytextarea">{{post.post_description}}</textarea> 
     </div>
     <div>
       {{post.vote_count}} {{format_plural "point" post.vote_count}} by you on {{format_date post.created_at}}
@@ -18,7 +22,7 @@
   </form>
 </article>
 
-<form class="comment-form">
+<form class="new-post-form">
   <div>
     <textarea id="mytextarea" name="comment-body"></textarea>
   </div>
