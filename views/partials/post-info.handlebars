@@ -3,7 +3,7 @@
     <a href="{{post_url}}" target="_blank">{{title}}</a>
     {{!-- <span>({{format_url post_url}})</span> --}}
     <br>
-    <span>{{post_description}}</span>
+    <span>{{format_url post_description}}</span>
   </div>
   <div class="meta">
     {{vote_count}} {{format_plural "point" vote_count}} by {{user.username}} on {{format_date created_at}}
