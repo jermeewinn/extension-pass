@@ -191,19 +191,19 @@ main article.post div.title span {
   color: black;
   /* font-weight: bold; */
 }
-form.comment-form div textarea {
+/* form.comment-form div textarea {
   border: 3mm ridge rgba(21, 212, 196, 0.918);
-}
+} */
 form.comment-form div button[type="submit"] {
   color: white;
   background-color: rgb(93, 93, 218);
   border: 0.5mm solid #333;
 }
-form.comment-form div button[type="button"] {
+/* form.comment-form div button[type="button"] {
   color: white;
   background-color: rgb(93, 218, 201);
   border: 0.5mm solid #333;
-}
+} */
 
 footer {
   border-top: 1px solid #ccc;
