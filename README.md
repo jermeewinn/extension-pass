@@ -24,6 +24,7 @@
 ○ Express.JS<br>
 ○ JavaScript<br>
 ○ Handlebars.JS<br>
+○ TinyMCE WYSIWYG HTML Text Editor<br>
 
 ## <a name="story">User Story</a>
 AS a traveller:
