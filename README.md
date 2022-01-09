@@ -28,16 +28,16 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## <a name="installation">Installation</a><br>
-# Clone the repository
+### Clone the repository
 - $git clone git@github.com:jermeewinn/extension-pass.git
-# Install npm dependencies
+### Install npm dependencies
 - $npm install sequelize dotenv express express-handlebars express-session mysql2 bcrypt
-# Initialize the database
+### Initialize the database
 - $mysql -u root -p
 - $source db/schema.sql;
 - $USE extensionpass_db;
 - $exit
-# Open localhost
+### Open localhost
 - $npm start
 - Open a web browser and go to localhost:3003
 
