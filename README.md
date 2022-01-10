@@ -90,4 +90,4 @@ Here, users will be able to not only share their travel stories, but also see th
 
 
 ## <a name="heroku">Hosted at:</a>
-HEROKU link: https://extensionpass1.herokuapp.com/
+HEROKU link: https://whispering-plains-41505.herokuapp.com/
