@@ -69,11 +69,6 @@ THEN I am prompted to enter the location I visited, and enter a text describing 
 WHEN I want to comment on a post,
 THEN I click on comments and it will allow us to comment on a post, and the number of comments on a post will reflect in the main page.
 
-## <a name="motivation">Motivation for the team</a>
-We felt that travelling was something that was going to be on everyone’s New Year’s resolution, if not next year, then the year after.
-We thought that this would be a good balance in demonstrating our knowledge in the subject matter, while simple enough to be able to complete in a timely fashion, as we didn’t want to run into production hiccups like we did in our last project. 
-
-
 ## <a name="pitch">Elevator Pitch</a>
 Extension Pass is a comparative travel blog where we take user input on places they’ve been to, any notes they took on their destinations, and list any other locations they would like to visit in the near future. 
 Here, users will be able to not only share their travel stories, but also see the experiences of others as worldwide travel plans are being made. This way, users will be better informed on what destinations are unique, and which destinations can be passed on.
@@ -87,6 +82,7 @@ Here, users will be able to not only share their travel stories, but also see th
 ○ Something we want to do is to allow users to upload any photos/videos they took at these locations to their individual posts like you see on Reddit, Instagram, or Facebook <br>
 ○ Algorithm that makes suggestions on new destinations to visit based on your previous post locations and/or your search history. <br>
 ○ Search functionality for specific cities you want to look up.
+○ Implement new APIs like a currency exchange and time-zone converter so that users can get more use out of the app.
 
 
 ## <a name="heroku">Hosted at:</a>
