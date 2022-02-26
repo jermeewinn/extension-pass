@@ -79,10 +79,10 @@ Here, users will be able to not only share their travel stories, but also see th
 
 ## <a name=future>Future Plans!</a>
 
-○ Something we want to do is to allow users to upload any photos/videos they took at these locations to their individual posts like you see on Reddit, Instagram, or Facebook <br>
-○ Algorithm that makes suggestions on new destinations to visit based on your previous post locations and/or your search history. <br>
-○ Search functionality for specific cities you want to look up.
-○ Implement new APIs like a currency exchange and time-zone converter so that users can get more use out of the app.
+- Something we want to do is to allow users to upload any photos/videos they took at these locations to their individual posts like you see on Reddit, Instagram, or Facebook <br>
+- Algorithm that makes suggestions on new destinations to visit based on your previous post locations and/or your search history. <br>
+- Search functionality for specific cities you want to look up.
+- Implement new APIs like a currency exchange and time-zone converter so that users can get more use out of the app.
 
 
 ## <a name="heroku">Hosted at:</a>
