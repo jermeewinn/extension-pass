@@ -42,14 +42,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 - Open a web browser and go to localhost:3003
 
 ## <a name="tech">Technology used for this project:</a><br>
-○ CSS Bulma <br>
-○ SQL <br>
-○ NODE.JS<br>
-○ Sequelize <br>
-○ Express.JS<br>
-○ JavaScript<br>
-○ Handlebars.JS<br>
-○ TinyMCE WYSIWYG HTML Text Editor<br>
+- CSS Bulma 
+- MySQL 
+- Node.js
+- Sequelize 
+- Express.js
+- JavaScript
+- Handlebars.js
+- TinyMCE WYSIWYG HTML Text Editor
 
 ## <a name="story">User Story</a>
 AS a traveller:
